@@ -63,15 +63,15 @@ const Hero = () => {
         }
     }, [theme]);
 
-    return <div className="col-start-2 col-end-8">
+    return <div className="col-start-2 col-end-8" id="home">
         <div className="min-h-screen flex flex-col">
             <nav className="flex justify-between py-5">
                 <div className="text-3xl md:text-5xl font-extrabold text-slate-600 font-serif dark:text-slate-200">NINJAS <b>.</b></div>
                 <ul className="flex space-x-5 text-2xl">
-                    <li className="hidden lg:block font-semibold text-slate-600 font-serif dark:text-slate-200"><a href="#home">Home</a></li>
-                    <li className="hidden lg:block font-semibold text-slate-600 font-serif dark:text-slate-200"><a href="#bio">Bio</a></li>
-                    <li className="hidden lg:block font-semibold text-slate-600 font-serif dark:text-slate-200"><a href="#about">Experience</a></li>
-                    <li className="hidden lg:block font-semibold text-slate-600 font-serif dark:text-slate-200"><a href="#project">Project</a></li>
+                    <li className="hidden lg:block font-semibold text-slate-600 font-serif dark:text-slate-200 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:text-purple-600 duration-200"><a href="#home">Home</a></li>
+                    <li className="hidden lg:block font-semibold text-slate-600 font-serif dark:text-slate-200 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:text-purple-600 duration-200"><a href="#bio">Bio</a></li>
+                    <li className="hidden lg:block font-semibold text-slate-600 font-serif dark:text-slate-200 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:text-purple-600 duration-200"><a href="#about">About</a></li>
+                    <li className="hidden lg:block font-semibold text-slate-600 font-serif dark:text-slate-200 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:text-purple-600 duration-200"><a href="#project">Project</a></li>
                     <li>
                         <button
                             onClick={() => handleThemeSwitch()}
@@ -98,16 +98,16 @@ const Hero = () => {
                             create something
                             extraordinary together!</p>
                         <div className="">
-                            <button className="w-52 h-16 bg-slate-600 shadow-xl shadow-slate-600 dark:shadow-slate-950 text-slate-50 text-2xl font-semibold font-serif"><a
+                            <button className="w-52 h-16 bg-slate-600 shadow-xl shadow-slate-600 dark:shadow-slate-950 text-slate-50 text-2xl font-semibold font-serif transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-purple-600 duration-200"><a
                                 href="https://drive.google.com/file/d/19uWjImRV4P4tfPLPZxIMVeG5WQUDpE19/view?usp=drivesdk"
                                 target="_blank"
                                 download>Download CV</a></button>
                         </div>
-                        <section className="space-x-5 text-5xl text-violet-900 py-10">
-                            <a href="https://www.linkedin.com/in/mukul-kumar-31a2a71b0/"><i className="fab fa-linkedin"></i></a>
-                            <a href="https://github.com/Mukulninjas"><i className="fab fa-github-square"></i></a>
-                            <a href="mailto:mukulninjas@gmail.com"><i className="fa fa-envelope"></i></a>
-                            <a href="tel:9582688985"><i className="fa fa-phone"></i></a>
+                        <section className="space-x-5 text-5xl text-purple-600 py-10">
+                            <a href="https://www.linkedin.com/in/mukul-kumar-31a2a71b0/"><i className="fab fa-linkedin transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:text-purple-900 duration-200"></i></a>
+                            <a href="https://github.com/Mukulninjas"><i className="fab fa-github-square transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:text-purple-900 duration-200"></i></a>
+                            <a href="mailto:mukulninjas@gmail.com"><i className="fa fa-envelope transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:text-purple-900 duration-200"></i></a>
+                            <a href="tel:9582688985"><i className="fa fa-phone transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:text-purple-900 duration-200"></i></a>
                         </section>
                     </div>
                 </div>

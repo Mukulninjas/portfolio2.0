@@ -22,13 +22,13 @@ const Bio = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2 flex flex-col items-center py-5 text-lg md:text-2xl text-slate-600 dark:text-slate-300">
-          "As a Software Developer with 1.5 years of industry experience in MERN Stack development,
+          "I am Mukul Kumar a Software Developer 🧑‍💻 with 1.5 years of industry experience in MERN Stack development,
           specializing in
           healthcare and
           payment provider web applications. I have honed my skills of HTML5, CSS3, JavaScript, ReactJS,
           NodeJS,
-          ExpressJS, and
-          MongoDB.<br />
+          ExpressJS,
+          MongoDB and many more technologies.<br />
           &emsp; Passionate about creating robust and user-friendly web applications, I thrive in
           collaborative
           environments where I can
@@ -36,7 +36,7 @@ const Bio = () => {
           efficient
           and
           scalable solutions.<br />
-          &emsp; My wrok experience has provided me with a deep understanding of industry best practices,
+          &emsp; My work experience has provided me with a deep understanding of industry best practices,
           compliance
           standards, and data
           security. I am constantly staying updated with the latest technologies and trends in web development
