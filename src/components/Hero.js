@@ -91,7 +91,7 @@ const Hero = () => {
                     </div>
                     <div className="w-full md:w-1/2 space-y-3">
                         <span className="text-4xl font-semibold text-slate-600 dark:text-slate-100">Hello<span className="font-extrabold text-purple-600">_</span></span>
-                        <h1 className="text-slate-700 font-extrabold h-32 text-5xl dark:text-slate-100">I'm <span className="bg-gradient-to-r from-purple-600 to-blue-600 inline-block text-transparent bg-clip-text" id="typewriter">Software Engineer</span></h1>
+                        <h1 className="text-slate-700 font-extrabold h-32 text-5xl dark:text-slate-100">I'm <span className="h-fit text-3xl md:text-5xl bg-gradient-to-r from-purple-600 to-blue-600 inline-block text-transparent bg-clip-text" id="typewriter">Software Engineer</span></h1>
                         <p className="text-2xl text-slate-600 dark:text-slate-100">Software Engineering graduate and a Coding Enthusiast with strong technical skills anchored
                             on
                             extensive engineering coursework and a special focus on Full Stack Web Development. Let's
@@ -99,7 +99,7 @@ const Hero = () => {
                             extraordinary together!</p>
                         <div className="">
                             <button className="w-52 h-16 bg-slate-600 shadow-xl shadow-slate-600 dark:shadow-slate-950 text-slate-50 text-2xl font-semibold font-serif transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 duration-200"><a
-                                href="https://drive.google.com/file/d/19uWjImRV4P4tfPLPZxIMVeG5WQUDpE19/view?usp=drivesdk"
+                                href="https://drive.google.com/file/d/1I62Su_9eG4c952SB06mlxJex9ycQKMfl/view?usp=sharing"
                                 target="_blank"
                                 download>Download CV</a></button>
                         </div>
